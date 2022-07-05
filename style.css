@@ -30,7 +30,7 @@ section {
 }
 
 .half-width img {
-    width: 85%;
+    width: 70%;
     padding-left: 30px;
 }
 
@@ -41,4 +41,36 @@ section {
     font-weight: 700;
     border-radius: 5px;
     padding: 15px 40px;
+}
+
+#section-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#two-flex {
+    display: flex;
+}
+
+#containerflex {
+    display: flex;
+}
+
+#full-stack-developer {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 10px;
+    border-left: 7px solid tomato;
+    box-shadow: 10px 10px 40px gray;
+}
+
+#baby-developer {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 10px;
+    border-left: 7px solid blue;
+    box-shadow: 10px 10px 40px gray;
 }
