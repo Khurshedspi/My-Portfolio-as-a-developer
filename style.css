@@ -18,9 +18,20 @@ h2 {
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    background-position: left;
+}
+
+#section1 {
+    display: flex;
 }
 
 section {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#section2 {
     display: flex;
 }
 
@@ -49,11 +60,7 @@ section {
     background-position: left;
 }
 
-#two-flex {
-    display: flex;
-}
-
-#containerflex {
+#under-two-flex {
     display: flex;
 }
 
@@ -73,4 +80,12 @@ section {
     border-radius: 10px;
     border-left: 7px solid blue;
     box-shadow: 10px 10px 40px gray;
+}
+
+footer {
+    text-align: center;
+}
+
+.the-end {
+    color: orange;
 }
